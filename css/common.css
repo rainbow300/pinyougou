@@ -1,0 +1,257 @@
+
+@font-face { font-family: 'icomoon'; 
+src: url('../fonts/icomoon.eot?7kkyc2'); 
+src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), 
+url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), 
+url('../fonts/icomoon.woff?7kkyc2') format('woff'), 
+url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg'); 
+font-weight: normal; 
+font-style: normal; 
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+body {
+	color: #666;
+}
+
+.header {
+	height: 30px;
+	width: 100%;
+	background-color: #f1f1f1;
+	color: #666;
+}
+.header li {
+	float:left;
+	line-height: 30px;
+}
+.header li span {
+	padding: 0 10px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+/*	background-color: pink;*/
+}
+.style-red {
+	color: #c81623;
+}
+i {
+	font-family: 'icomoon';
+	font-size: 12px;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+.clearfix{
+	*zoom:1;
+}
+/*顶部搜素区域*/
+.headtitle {
+	height: 106px;
+/*	background-color: #fff;*/
+}
+.headtitle .logo {
+	width: 210px;
+	height: 106px;
+	background: url(../img/images/01-电商-主页-gai_03.jpg) no-repeat;
+
+}
+.headtitle .logo a {
+	display: block;
+	width: 210px;
+	height: 106px;
+	cursor: pointer;
+	text-indent: -999px;
+	overflow: hidden;
+}
+.headtitle .search {
+	width: 540px;
+	height: 100%;
+	margin-left: 137px;
+	margin-top: 26px;
+}
+.headtitle .search input {
+	width: 432px;
+	height: 14px;
+	color: #666;
+	border: 2px solid #b1191a;
+	padding: 10px;
+	float: left;
+}
+.headtitle .search button {
+	width: 80px;
+	height: 38px;
+	border: 2px solid #b1191a;
+	background-color: #b1191a;
+	float: left;
+	color: #fff;
+}
+.headtitle .search li {
+	float: left;
+	margin-top: 8px;
+}
+.headtitle .search a {
+	font-size: 12px;
+	margin: 14px 12px 0;
+}
+.headtitle .mycar {
+	margin-top: 26px;
+	margin-right: 10px;
+	width: 100px;
+	height: 16px;
+	background-color: #f7f7f7;
+	border: 1px solid #dfdfdf;
+	padding: 10px 18px;
+	cursor: pointer;
+
+}
+.mycar i {
+	font-family: 'icomoon';
+}
+/*导航栏区域*/
+.nav {
+	width: 100%;
+	margin: 0 auto;
+	height: 48px;
+	border-bottom: 2px solid #b1191a;
+}
+.nav .nav_l {
+	float: left;
+	width: 210px;
+}
+.nav_l .nav_dt {
+	height: 48px;
+	text-align: center;
+	background-color: #b1191a;
+	line-height: 48px;
+	color: #fff;
+	font-size: 16px;
+	border-bottom: 2px solid #b1191a;
+}
+.nav_l .nav_dd {
+	height: 464px;
+	background-color: #c81623;
+}
+.meta {
+	height: 31px;
+	padding: 0 10px;
+	line-height: 31px;
+	margin-left: 1px;
+}
+.nav_dd li:hover {
+	background-color: #fff;
+}
+.meta a {
+	float: left;
+	color: #fff;
+}
+.meta i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 16px;
+	color: #fff;
+}
+.nav_dd li:hover a {
+	color: #c81623;
+}
+.nav_dd li:hover i {
+	color: #c81623;
+}
+.nav .nav_r {
+	height: 48px;
+	float: left;
+	padding-left: 25px;
+}
+.nav .nav_r ul li {
+	padding: 0 26px;
+	line-height: 48px;
+	float: left;
+}
+.nav .nav_r ul li a {
+	font-size: 16px;
+}
+/*footer区域*/
+.footer {
+	width: 100%;
+	height: 420px;
+	background-color: #f5f5f5;
+}
+.mod_service {
+	width: 100%;
+	height: 110px;
+	border-bottom: 1px solid #ededed;
+	overflow: hidden;
+}
+.mod_service ul {
+	margin-top: 30px;
+}
+.mod_service li {
+	float: left;
+	margin: 0 30px;
+	width: 170px;
+	height: 80px;
+}
+.mod_service li i {
+	float: left;
+	height: 52px;
+	width: 52px;
+	background-image: url(../img/icons.png);
+}
+.mod_service .mod_zheng {
+	background-position: -250px -2px;
+}
+.mod_service .mod_kuai {
+	background-position: -252px -53px;
+}
+.mod_service .mod_bao {
+	background-position: -256px -104px;
+}
+}.mod_service .mod_rong {
+	background-position: -256px -155px;
+}
+.mod_service .mod_rong {
+	background-position: -256px -155px;
+}
+.mod_service .mod_di {
+	background-position: -256px -209px;
+}
+.mod_service li div {
+	float: right;
+	margin-top:10px;
+}
+.mod_help {
+	height: 172px;
+	border-bottom: 1px solid #ededed;
+}
+.mod_help ul {
+	margin-top:16px;
+}
+.mod_help li {
+	float: left;
+	margin: 0 55px;
+}
+.mod_help dt{
+	font-size: 16px;
+}
+.mod_help dd {
+	margin-top:3px;
+}
+.mod_help .mod_service_center {
+	text-align: center;
+	line-height: 25px;
+}
+
+.mod_copyright .mod_copyright_contact,
+.mod_copyright .mod_copyright_add {
+	margin-top: 20px;
+	text-align: center;
+}
